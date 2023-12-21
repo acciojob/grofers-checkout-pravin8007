@@ -37,10 +37,10 @@ const getSum = () => {
   }
 
   // Check if a total row already exists and remove it
-  var existingTotalRow = document.querySelector('table tr:last-child');
-  if (existingTotalRow) {
-    existingTotalRow.remove();
-  }
+  // var existingTotalRow = document.querySelector('table tr:last-child');
+  // if (existingTotalRow) {
+  //   existingTotalRow.remove();
+  // }
 
   // Call the calculateTotal function
   calculateTotal();
