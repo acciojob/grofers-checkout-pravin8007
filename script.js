@@ -14,6 +14,7 @@ const getSum = () => {
     });
 
     var totalRow = document.createElement('tr');
+	  totalRow.id = "ans";
 
     
     var itemNameCell = document.createElement('td');
